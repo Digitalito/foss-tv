@@ -1,39 +1,133 @@
-<p align="center">
-    <!-- <a href="https://raw.githubusercontent.com/username/f-droid/main/fdroid/repo?fingerprint=XXX">
-        <img src="assets/btn.png" alt="F-Droid repo url button" width="323" height="125"/>
-    </a> -->
-    <br>
-    <a href="https://raw.githubusercontent.com/cesaryuan/f-droid-repo-template/main/fdroid/repo?fingerprint=4F966AF134F6ABCE6CD01E876D50F5464747E5CC25ED1603B24823498F763275">
-        <img src="fdroid/repo/index.png?raw=true" alt="F-Droid repo QR code" width="300" height="300"/>
-    </a>
-</p>
+# FOSS TV — F-Droid Repository
 
-URL:
+A curated F-Droid repository of FOSS (Free and Open Source Software) apps for Android TV.
+
+[![F-Droid repo](https://img.shields.io/badge/F--Droid-Repo-blue?logo=f-droid)](https://github.com/Digitalito/foss-tv)
+
+---
+
+## Add to F-Droid
+
+1. Install the [F-Droid client app](https://f-droid.org/)
+2. Go to **Settings → Repositories → Add repository**
+3. Paste the URL below:
+
 ```
-https://raw.githubusercontent.com/cesaryuan/f-droid-repo-template/main/fdroid/repo?fingerprint=4F966AF134F6ABCE6CD01E876D50F5464747E5CC25ED1603B24823498F763275
+https://raw.githubusercontent.com/Digitalito/foss-tv/main/fdroid/repo?fingerprint=YOUR_FINGERPRINT_HERE
 ```
 
-## Apps
+> After first setup, run `fdroid update` or push to GitHub Actions to generate the signed repo index.
 
-<!-- This table is auto-generated. Do not edit -->
-| Icon | Name | Description | Version |
-| --- | --- | --- | --- |
-| <a href=""><img src="fdroid/repo/com.x8bit.bitwarden/en-US/icon.png" alt="Bitwarden icon" width="36px" height="36px"></a> | [**Bitwarden**]() | No summary available | 2024.9.0 (19209) |
-| <a href=""><img src="fdroid/repo/com.x8bit.bitwarden.beta/en-US/icon.png" alt="Bitwarden Beta icon" width="36px" height="36px"></a> | [**Bitwarden Beta**]() | No summary available | 2024.9.0 (19209) |
-<!-- end apps table -->
+---
 
-## Instructions
+## Apps (56)
 
-1. Install the [F-Droid client app](https://f-droid.org/).
-2. Scan the QR code from above or manually copy/paste the F-Droid repository [link](ttps://raw.githubusercontent.com/username/f-droid/main/fdroid/repo?fingerprint=XXX) into the F-Droid client app under Settings.
-3. Add the repository to the F-Droid client app.
-4. Refresh your F-Droid client app under the Categories tab.
-5. Install from the F-Droid client app listing.
+| Category | App | Source |
+|---|---|---|
+| **Launcher** | Arc Launcher | [GitHub](https://github.com/meddouribadis/arclauncher) |
+| **Launcher** | LeanbackLauncher | [GitHub](https://github.com/tsynik/LeanbackLauncher) |
+| **Launcher** | LTvLauncher | [GitHub](https://github.com/LeanBitLab/LtvLauncher) |
+| **Keyboard** | LeanKey Keyboard | [GitHub](https://github.com/yuliskov/LeanKeyKeyboard) |
+| **App Store** | Flicky | [GitHub](https://github.com/mlm-games/flicky) |
+| **Web Browser** | TV Bro | [GitHub](https://github.com/truefedex/tv-bro) |
+| **Web Browser** | DTVfree | [GitHub](https://github.com/InukaAsith/DTVfree) |
+| **Media Player** | Fermata | [GitHub](https://github.com/AndreyPavlenko/Fermata) |
+| **Media Player** | Ghosten Player | [GitHub](https://github.com/GhostenEditor/Ghosten-Player) |
+| **Media Player** | mpv for Android | [GitHub](https://github.com/mpv-android/mpv-android) |
+| **Media Player** | Nova Video Player | [GitHub](https://github.com/nova-video-player/aos-AVP) |
+| **Streaming · YouTube** | SmartTube | [GitHub](https://github.com/yuliskov/smarttube) |
+| **Streaming · YouTube** | Tubular | [GitHub](https://github.com/polymorphicshade/Tubular) |
+| **Streaming · YouTube** | TizenTube Cobalt | [GitHub](https://github.com/reisxd/TizenTubeCobalt) |
+| **Streaming · Movies** | CloudStream | [GitHub](https://github.com/recloudstream/cloudstream) |
+| **Streaming · Movies** | Flixclusive | [GitHub](https://github.com/rhenwinch/Flixclusive) |
+| **Streaming · Movies** | Lumera | [GitHub](https://github.com/LumeraD3v/Lumera) |
+| **Streaming · Movies** | NuvioTV | [GitHub](https://github.com/tapframe/NuvioTV) |
+| **Streaming · Movies** | Streamflix Reborn | [GitHub](https://github.com/streamflix-reborn/streamflix) |
+| **Streaming · Movies** | Digilog TV | [GitHub](https://github.com/aldrinzigmundv/digilogtv) |
+| **Streaming · Movies** | ARVIO | [GitHub](https://github.com/ProdigyV21/ARVIO) |
+| **Streaming · Self-hosted** | Jellyfin for Android TV | [GitHub](https://github.com/jellyfin/jellyfin-androidtv) |
+| **Streaming · Self-hosted** | Immich Android TV | [GitHub](https://github.com/giejay/Immich-Android-TV) |
+| **Streaming · Twitch** | SmartTwitchTV | [GitHub](https://github.com/fgl27/SmartTwitchTV) |
+| **Streaming · Gaming** | Moonlight | [GitHub](https://github.com/moonlight-stream/moonlight-android) |
+| **Streaming · Gaming** | Artemis | [GitHub](https://github.com/ClassicOldSong/moonlight-android) |
+| **Streaming · IPTV** | M3U | [GitHub](https://github.com/realOxy/M3UAndroid) |
+| **File Browser** | Amaze File Manager | [GitHub](https://github.com/TeamAmaze/AmazeFileManager) |
+| **File Browser** | Fluffy | [GitHub](https://github.com/mlm-games/Fluffy) |
+| **File Browser** | Material Files | [GitHub](https://github.com/zhanghai/MaterialFiles) |
+| **Download Manager** | Download Navi | [GitHub](https://github.com/TachibanaGeneralLaboratories/download-navi) |
+| **Download Manager** | TorrServe | [GitHub](https://github.com/YouROK/TorrServe) |
+| **Download Manager** | Debrify | [GitHub](https://github.com/varunsalian/debrify) |
+| **Connectivity** | LocalSend | [GitHub](https://github.com/localsend/localsend) |
+| **Connectivity** | LinkLoom TV | [GitHub](https://github.com/Yazan98/LinkLoomTv) |
+| **Gallery** | Aves Gallery | [GitHub](https://github.com/deckerst/aves) |
+| **Screen Saver** | Aerial Views | [GitHub](https://github.com/theothernt/AerialViews) |
+| **DNS Proxy** | DNSNet | [GitHub](https://github.com/t895/DNSNet) |
+| **DNS Proxy / Privacy** | InviZible Pro | [GitHub](https://github.com/Gedsh/InviZible) |
+| **VPN** | OpenVPN for Android | [GitHub](https://github.com/schwabe/ics-openvpn) |
+| **VPN** | Proton VPN | [GitHub](https://github.com/ProtonVPN/android-app) |
+| **VPN** | Shadowsocks TV | [GitHub](https://github.com/shadowsocks/shadowsocks-android) |
+| **VPN** | Tailscale | [GitHub](https://github.com/tailscale/tailscale-android) |
+| **VPN** | Windscribe | [GitHub](https://github.com/Windscribe/Android-App) |
+| **Capturing** | Recording Webcam | [GitHub](https://github.com/ChunhThanhDe/Recording-Webcam) |
+| **System Utilities** | APKUpdater | [GitHub](https://github.com/rumboalla/apkupdater) |
+| **System Utilities** | App Manager | [GitHub](https://github.com/MuntashirAkon/AppManager) |
+| **System Utilities** | CPU Info | [GitHub](https://github.com/kamgurgul/cpu-info) |
+| **System Utilities** | Key Mapper | [GitHub](https://github.com/keymapperorg/KeyMapper) |
+| **System Utilities** | Launch-On-Boot | [GitHub](https://github.com/ITVlab/Launch-On-Boot) |
+| **System Utilities** | MATVT | [GitHub](https://github.com/virresh/matvt) |
+| **System Utilities** | Neo Backup | [GitHub](https://github.com/NeoApplications/Neo-Backup) |
+| **System Utilities** | NetGuard | [GitHub](https://github.com/M66B/NetGuard) |
+| **System Utilities** | SD Maid SE | [GitHub](https://github.com/d4rken-org/sdmaid-se) |
+| **System Utilities** | Shizuku | [GitHub](https://github.com/RikkaApps/Shizuku) |
+| **System Utilities** | WebDAV Provider | [GitHub](https://github.com/alexbakker/webdav-provider) |
 
-## For developers
-If you are a developer and want to publish your own apps right from GitHub Actions as an F-Droid repo, you can fork/copy this repo and see the [documentation](setup.md) for more information on how to set it up.
+---
+
+## Apps excluded from this repo
+
+These apps from the original list are **not** in `repos.yaml` because they cannot be automatically fetched by metascoop (no GitHub releases with APKs, GitLab-only, Google Play only, or F-Droid direct):
+
+| App | Reason |
+|---|---|
+| FLauncher | GitLab — no GitHub releases |
+| FLauncher (fork) | GitHub but no releases |
+| Aurora Store | GitLab |
+| Droid-ify | GitHub but APK not in releases format |
+| F-Droid Classic | GitLab |
+| Neo Store | GitHub but F-Droid build pipeline only |
+| Kodi | GitHub, but APK release format incompatible |
+| VLC | GitHub, but APK naming incompatible |
+| Just (Video) Player | Needs manual ID resolution |
+| NewPipe | F-Droid has its own repo already |
+| Clipious | Needs manual APK filename |
+| BiglyBT | GitHub but release APK naming varies |
+| BT Remote | GitLab |
+| KDE Connect | GitLab |
+| DSub | GitHub but no active releases |
+| FCast | GitLab |
+| Ghost Commander | SourceForge |
+| FireFiles | No active releases |
+| OI File Manager | No active releases |
+| Heads-up | No active releases |
+| DNSNet (Intra) | GitLab/separate project |
+| DAVx⁵ | Paid on Google Play, F-Droid separate |
+| Quick Settings | F-Droid only, source is tarball |
+| Termux | F-Droid only recommended |
+
+---
+
+## Setup
+
+See [setup.md](setup.md) for instructions on generating the signing key, configuring GitHub Actions, and publishing the repo.
+
+---
 
 ## Credits
 
-This GitHub repository was forked and adapted from https://github.com/xarantolus/fdroid and https://github.com/bitwarden/f-droid
+- App list sourced from [awesome-android-tv-foss-apps](https://github.com/awesome-android-tv-foss-apps)
+- Repo template from [cesaryuan/f-droid-repo-template](https://github.com/cesaryuan/f-droid-repo-template)
+- metascoop tool by [xarantolus](https://github.com/xarantolus/fdroid)
 
+## License
+
+[MIT](LICENSE.txt)
